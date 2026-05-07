@@ -1,0 +1,234 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# jeakob autocorrect dictionary
+#
+# Format: typo -> correction
+#   - Typos: a-z, apostrophe, and colon (colon = word boundary marker)
+#   - Leading/trailing colon = require word boundary on that side
+#   - Corrections: ASCII only (Polish diacritics require UNICODE_ENABLE)
+#
+# Sections:
+#   1. English defaults (70 QMK built-in entries)
+#   2. Additional English misspellings
+#   3. Polish ASCII-only corrections
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── 1. English defaults ──────────────────────────────────────────────────────
+
+:guage      -> gauge
+:the:the:   -> the
+:thier      -> their
+:ture       -> true
+accomodate  -> accommodate
+acommodate  -> accommodate
+aparent     -> apparent
+aparrent    -> apparent
+apparant    -> apparent
+apparrent   -> apparent
+aquire      -> acquire
+becuase     -> because
+cauhgt      -> caught
+cheif       -> chief
+choosen     -> chosen
+cieling     -> ceiling
+collegue    -> colleague
+concensus   -> consensus
+contians    -> contains
+cosnt       -> const
+dervied     -> derived
+fales       -> false
+fasle       -> false
+fitler      -> filter
+flase       -> false
+foward      -> forward
+frequecy    -> frequency
+gaurantee   -> guarantee
+guaratee    -> guarantee
+heigth      -> height
+heirarchy   -> hierarchy
+inclued     -> include
+interator   -> iterator
+intput      -> input
+invliad     -> invalid
+lenght      -> length
+liasion     -> liaison
+libary      -> library
+listner     -> listener
+looses:     -> loses
+looup       -> lookup
+manefist    -> manifest
+namesapce   -> namespace
+namespcae   -> namespace
+occassion   -> occasion
+occured     -> occurred
+ouptut      -> output
+ouput       -> output
+overide     -> override
+postion     -> position
+priviledge  -> privilege
+psuedo      -> pseudo
+recieve     -> receive
+refered     -> referred
+relevent    -> relevant
+repitition  -> repetition
+retrun      -> return
+retun       -> return
+reuslt      -> result
+reutrn      -> return
+saftey      -> safety
+seperate    -> separate
+singed      -> signed
+stirng      -> string
+strign      -> string
+swithc      -> switch
+swtich      -> switch
+thresold    -> threshold
+udpate      -> update
+widht       -> width
+
+# ── 2. Additional English misspellings ──────────────────────────────────────
+
+abreviation -> abbreviation
+absense     -> absence
+accidentaly -> accidentally
+acheive     -> achieve
+adress      -> address
+alhtough    -> although
+amout       -> amount
+annoint     -> anoint
+arguement   -> argument
+asignment   -> assignment
+assistent   -> assistant
+atribute    -> attribute
+availble    -> available
+awsome      -> awesome
+basicaly    -> basically
+beggining   -> beginning
+begining    -> beginning
+belive      -> believe
+benifit     -> benefit
+buisness    -> business
+catagory    -> category
+commadn     -> command
+commited    -> committed
+comming     -> coming
+completly   -> completely
+concieve    -> conceive
+condidtion  -> condition
+conveniant  -> convenient
+correclty   -> correctly
+curently    -> currently
+databse     -> database
+defenitely  -> definitely
+definately  -> definitely
+defintion   -> definition
+dependancy  -> dependency
+desription  -> description
+develoment  -> development
+diffrence   -> difference
+disconect   -> disconnect
+documnet    -> document
+donwload    -> download
+dupilcate   -> duplicate
+durring     -> during
+emtpy       -> empty
+envirnoment -> environment
+envirnment  -> environment
+erorr       -> error
+excpetion   -> exception
+existance   -> existence
+exlpicit    -> explicit
+exmaple     -> example
+exprience   -> experience
+feautre     -> feature
+finaly      -> finally
+foramt      -> format
+formated    -> formatted
+freind      -> friend
+fuction     -> function
+futher      -> further
+grammer     -> grammar
+handeld     -> handled
+hapened     -> happened
+hapenned    -> happened
+humain      -> human
+implemnt    -> implement
+importnat   -> important
+inptu       -> input
+insatll     -> install
+interace    -> interface
+iteraion    -> iteration
+knwledge    -> knowledge
+lanaguage   -> language
+maintian    -> maintain
+managment   -> management
+messsage    -> message
+middlewrae  -> middleware
+occurance   -> occurrence
+onlcik      -> onclick
+paramater   -> parameter
+perfomance  -> performance
+permision   -> permission
+persistance -> persistence
+pritnf      -> printf
+prjoect     -> project
+probelm     -> problem
+programing  -> programming
+properites  -> properties
+publci      -> public
+pupose      -> purpose
+quesiton    -> question
+reccomend   -> recommend
+referece    -> reference
+registerd   -> registered
+relatd      -> related
+remvoe      -> remove
+rendeirng   -> rendering
+reponse     -> response
+repositry   -> repository
+requirment  -> requirement
+repsitory   -> repository
+resovle     -> resolve
+resposne    -> response
+retireve    -> retrieve
+retrive     -> retrieve
+reuqest     -> request
+reveiw      -> review
+reuqire     -> require
+securty     -> security
+serilaize   -> serialize
+servcie     -> service
+soucre      -> source
+specifc     -> specific
+statemet    -> statement
+stoarge     -> storage
+structre    -> structure
+sucess      -> success
+supprot     -> support
+systme      -> system
+templte     -> template
+timoeut     -> timeout
+trnasfer    -> transfer
+trnasition  -> transition
+uniqe       -> unique
+utliity     -> utility
+vairable    -> variable
+verfiy      -> verify
+visbile     -> visible
+webapck     -> webpack
+withouut    -> without
+
+# ── 3. Polish ASCII-only corrections ────────────────────────────────────────
+# Note: corrections with Polish diacritics (ą ę ó ś ź ż ć ń) are NOT
+# possible — QMK autocorrect is ASCII-only. These entries fix typos in Polish
+# words whose correct spelling uses only a-z.
+
+katalgo     -> katalog
+kataog      -> katalog
+komputre    -> komputer
+komputeer   -> komputer
+progarm     -> program
+progrma     -> program
+internt     -> internet
+internset   -> internet
+platfroma   -> platforma
+platrfoma   -> platforma
