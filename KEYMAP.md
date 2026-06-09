@@ -32,7 +32,7 @@ Hold **FN** to activate. Keys light up to show their function:
 | FN + B | Enter bootloader mode | Red |
 | FN + N | Toggle N-key rollover (NKRO) | Yellow |
 | FN + / | **Ctrl + Alt + Del** | Orange-red |
-| FN + F | Ctrl+` terminal shortcut (OS-aware) | White |
+| FN + F | Ctrl+\` (Windows/Linux) / Ctrl+\ (macOS UK ISO) — terminal shortcut | White |
 | FN + R | **Record macro 1** (press again to stop) | — |
 | FN + P | **Play macro 1** | — |
 | Knob press | **System sleep / Lock Screen** — Windows: HID sleep; macOS: Lock Screen (Cmd+Ctrl+Q). **LEDs turn off immediately** on press. | — |
@@ -225,6 +225,12 @@ Holding **Ctrl** and pressing **Backspace** deletes the previous word on all pla
 | macOS | Option + Backspace | Delete word (macOS equivalent) |
 
 The translation is transparent — just press Ctrl+Backspace and it does the right thing.
+
+### Caps Word
+
+Press **both Shift keys simultaneously** to toggle Caps Word mode. While active, every letter is capitalised and the mode cancels automatically when you type a space, punctuation (other than `-` or `_`), or any non-letter key. Useful for typing `CONSTANT_NAMES` without holding Shift.
+
+Pressing Shift while Caps Word is active temporarily inverts the capitalisation (i.e. pressing Shift types a lowercase letter).
 
 ### Ctrl+Alt+Del
 

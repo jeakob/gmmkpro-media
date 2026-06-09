@@ -1,0 +1,9 @@
+# Inner QMK firmware repo — tracked in its own git repo
+qmk_firmware/
+
+# Local development tools not for public repo
+src/
+
+# OS / editor noise
+.DS_Store
+*.swp
