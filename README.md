@@ -8,6 +8,12 @@ Custom QMK firmware for the Glorious GMMK Pro Rev1, ISO UK layout.
 
 Flash with [QMK Toolbox](https://github.com/qmk/qmk_toolbox) or `dfu-util`. To enter bootloader: hold **FN** then press **Backspace** (or **B**).
 
+## Building from source
+
+The keymap source is in [`keymap/jeakob/`](keymap/jeakob). `./build.sh` checks out the pinned QMK commit, regenerates the autocorrect data from `autocorrect_dict.txt`, compiles, and writes `gmmk_pro_rev1_iso_jeakob.bin` here.
+
+Requirements (Debian/Ubuntu): `sudo apt install git python3-venv gcc-arm-none-eabi libnewlib-arm-none-eabi`
+
 ## Key reference
 
 **[Full keymap documentation → KEYMAP.md](KEYMAP.md)**
