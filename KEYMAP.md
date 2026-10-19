@@ -110,7 +110,7 @@ Timeout steps: disabled → 1 → 2 → 3 → 5 → 10 → **15** → 20 → 30 
 | FN + 4 | Swap DEL → HOME — sidebar DEL sends Home instead of Delete | OFF |
 | FN + 5 | LShift double-tap — double-tap Left Shift to toggle CapsLock | OFF |
 | FN + 6 | Encoder button mode — play/pause (ON) vs mute (OFF) | **ON** |
-| FN + 7 | Insert key source — Shift+Backspace = Insert (ON) vs Shift+Delete = Insert (OFF) | OFF |
+| FN + 7 | Shift+Backspace = Insert (ON) / no Insert shortcut (OFF). Shift+Delete is never remapped | OFF |
 | FN + 9 | AutoCorrect — 209-entry dictionary (English + Polish ASCII) | **ON** |
 | FN + 0 | CapsLock extended — also highlights the `#` key green when CapsLock is on | OFF |
 
@@ -212,8 +212,14 @@ Use **British - PC** as your macOS input source (System Settings → Keyboard �
 
 | Toggle [FN]7 | Combo | Result |
 |-------------|-------|--------|
-| OFF (default) | Shift + Delete | Insert |
+| OFF (default) | — | No Insert shortcut |
 | ON | Shift + Backspace | Insert |
+
+**Shift + Delete** always sends Shift+Delete, so Windows permanent delete works.
+
+### Ctrl + Shift + \ (terminal split right)
+
+On the ISO `\ |` key (next to Left Shift), **Ctrl + Shift** together sends the ANSI Backslash key instead, so browsers report `code: "Backslash"`. Web apps such as Termix match their Split Right shortcut on that code. Typing `\` and `|`, and every other combination, is unchanged.
 
 ### Ctrl + Backspace — delete previous word
 
